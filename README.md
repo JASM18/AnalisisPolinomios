@@ -12,7 +12,7 @@ Este proyecto realiza un análisis de rendimiento entre dos métodos de evaluaci
 ## Instrucciones de compilación y ejecución 📜
 Estas son las instrucciones recomendadas para poder ejecutar el código:
 1. Clona este repositorio o descarga el código fuente.
-2. Abra el archivo `"Analisis comparativo polinomios.sln"` que esta adentro de `"AnalisisComparativoPolinomios-proyecto"`.
+2. Abra el archivo `"Analisis comparativo polinomios.sln"` que esta adentro de `"AnalisisPolinomios-proyecto"`.
 3. Compila el programa.
 4. Ejecuta el ejecutable generado.
 
