@@ -26,7 +26,7 @@ Dado un polinomio $a[n]x^n + a[n-1]x$^ $(n-1) + ... + a[2]x^2 + a[1]x + a[0]$  s
 
 Este enfoque reduce el número total de operaciones a $n$ multiplicaciones y $n$ sumas, lo cual se traduce en una complejidad $O(n)$. Además de ser más rápido, también mejora la estabilidad numérica al minimizar los errores de redondeo acumulados.
 
-### Método Estandar (termino a termino)
+### Método Estándar (termino a termino)
 El método estándar, también conocido como evaluación término a término, consiste en calcular cada potencia de x de manera explícita, multiplicándola por su coeficiente correspondiente, y sumando los resultados.
 
 Dado un polinomio $a_nx^n$ $+$ $...$ $+$ $a_2x^2$ $+$ $a_1x$ $+$ $a_0$
@@ -37,7 +37,7 @@ Para cada término aᵢxⁿ⁻ⁱ, el valor de $x$ se multiplica repetidamente e
 
 A continuación se presentan las gráficas realizadas a partir del promedio de los tiempos por grado:
 
-- **Eje X:** Grado del polinomio (cada número estará multiplicado x10 para representar el grado, por ejemplo, para `x = 65`, quiere decir que el polinomio es de grado `650`).
+- **Eje X:** Grado del polinomio (cada número estará multiplicado `x10` para representar el grado, por ejemplo, para `x = 65`, quiere decir que el polinomio es de grado `650`).
 
 - **Eje Y:** Tiempo promedio de evaluación (en segundos).
 
@@ -45,7 +45,7 @@ A continuación se presentan las gráficas realizadas a partir del promedio de l
 
 ![EXCEL_CKLTuikmIx](https://github.com/user-attachments/assets/8efb1b42-0a99-4a42-accb-cfd252187e77)
 
-### 2. Método estandar
+### 2. Método estándar
 
 ![EXCEL_Z9cKFOozgu](https://github.com/user-attachments/assets/36398561-9cc5-4d70-bb82-7bf41fc7b13e)
 
@@ -76,3 +76,10 @@ Este análisis demuestra con claridad que el método de Horner es ampliamente su
 Este experimento resalta la importancia de entender y elegir el algoritmo adecuado para cada situación. No basta con que un algoritmo funcione; su rendimiento puede marcar una diferencia crítica en aplicaciones reales, especialmente en contextos como la computación científica, el procesamiento gráfico o los cálculos financieros.
 
 Comparaciones como esta no solo enriquecen nuestra comprensión teórica, sino que también son fundamentales para tomar decisiones informadas en el diseño y la optimización de software.
+
+## Datos experimentales
+Los datos experimentales usados para la creación de la gráfica expositora se encuentra en estods dos archivos `csv`.
+
+- Datos para el método de Horner: [Estandar.csv](https://github.com/user-attachments/files/19723084/Estandar.csv)
+
+- Datos para el método estándar: [Estandar.csv](https://github.com/user-attachments/files/19723081/Estandar.csv)
